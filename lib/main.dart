@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
               backgroundImage: AssetImage('images/nakul.jpg'),
             ),
             Text(
-                "Nakul Rajan",
+                "Nakul Rajan Kumar",
                 style: TextStyle(
                   fontSize: 40,
                   color: Colors.white,
