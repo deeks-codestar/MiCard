@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
                 )
             ),
             Container(
-              margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25)
+              margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
               padding: EdgeInsets.all(10),
               color: Colors.white,
               child: Row(
@@ -60,7 +60,30 @@ class MyApp extends StatelessWidget {
                   )
                 ],
               ),
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            // NOTES: Add padding around Card, because Card does not have
+            Card(
+              margin: EdgeInsets.all(25),
+              child: ListTile(
+                leading: Icon(
+                  Icons.contact_mail,
+                  color: Colors.teal.shade900,
+                  size: 25,
+                ),
+                title: Text(
+                  "yetagain@gmail",
+                  style: TextStyle(
+                    color: Colors.teal.shade900,
+                    fontFamily: "SourceSansProRegular",
+                    fontSize: 25,
+                  ),
+                )
+              )
+
+            ),
           ],
         ),
       ),
